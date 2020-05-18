@@ -1,10 +1,11 @@
 package com.codersbay;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PersonalManagement {
 
-    static ArrayList<Person> LIST_OF_PEOPLE = new ArrayList<>();
+    static List<Person> LIST_OF_PEOPLE = new ArrayList<Person>();
 
     public static Person createPerson(String firstName, String lastName, String alias, String dateOfBirth, String citizenship, String gender) {
 
